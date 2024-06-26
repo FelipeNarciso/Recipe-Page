@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Titulo01' ;
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+ @font-face { 
+    font-family: 'Subtitulo' ;
+    src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Preparation' ;
+    src: url(/recipe-page-main/assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+
+body{
+    background-color: rgb(243, 229, 216);
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px;
+    background-color: white;
+    padding: 3%;
+    width: 60%;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 10px;
+}
+
+#titilo01{
+    font-family: 'Titulo01';
+    font-weight: 100;
+    padding-top: 2%;
+}
+
+#paragrafo01{
+    font-family: 'Subtitulo';
+    font-weight: 300;
+}
+
+#praparationTime{
+    background-color: rgb(255, 247, 252);
+    padding-left: 2%;
+    border-radius: 8px 8px 8px ;
+    padding-bottom: 20px;
+}
+
+#praparationTime h1{
+    font-family: 'Preparation';
+    color: rgb(110, 46, 73);
+    font-size: 18px;
+}
+
+#praparationTime li{
+   font-family: 'Subtitulo';
+   font-weight: 300;
+   font-size: 14px;
+   padding: 5px;
+}
+
+#praparationTime li::marker{
+    color: RGB(110, 46, 73);
+}
+
+.ingredients-instruction h1{
+    font-family: 'Titulo01';
+    font-weight: 100;
+    color: RGB(132, 71, 50);
+}
+
+.ingredients-instruction li{
+    padding: 5px;
+    font-family: 'Subtitulo';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.ingredients-instruction li::marker{
+    color: RGB(132, 71, 50);
+}
+
+.ingredients-instruction hr{
+    margin-top: 3%;
+}
+
+#instructions-list{
+    padding-left: 3%;
+}
+
+#table-nutrition{
+    padding-left: 20px;
+}
+
+
+
+
+#nutrition h1{
+    font-family: 'Titulo01';
+    font-weight: 100;
+    color: RGB(132, 71, 50);
+}
+
+#nutrition {
+    padding: 5px;
+    font-family: 'Subtitulo';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.type-nutrition{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.value-nutrition{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: RGB(132, 71, 50);
+}
